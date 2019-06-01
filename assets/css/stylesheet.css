@@ -1,7 +1,4 @@
-html {
-  background-image: url("assets/images/stars.jpg");
-  background-image: cover;
-}
+
 
 
 body {
@@ -215,3 +212,7 @@ input[type=submit] {
   border: 0 none;
 }
 
+html {
+  background-image: url("assets/images/stars.jpg");
+  background-image: cover;
+}
