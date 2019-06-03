@@ -1,6 +1,9 @@
 
 
 body {
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover; 
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 15px;
   line-height: 34px;
@@ -13,10 +16,7 @@ body {
 
 /* general */
 
-.container {
-  background-image: url("../images/old-concrete-wall-texture_1149-1290.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; 
+.container { 
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
@@ -64,7 +64,7 @@ h3 {
   margin: 0 0 30px;
   overflow: auto;
   color: #ffffff;
-  background: #ffffff;
+  background: #f8f9fa;
   border-bottom: 2px solid #cccccc;
 }
 
@@ -96,7 +96,7 @@ footer {
   text-align: center;
   background: #666666;
   border-top: 8px solid #4aaaa5;
-  height: 50px;
+  height: 40px;
 }
 
 h3, h2 {
@@ -112,7 +112,6 @@ h3, h2 {
   
   padding-top: 130px;
   min-height: calc(100vh - 70px);
-  
 }
 
 .main-section {
@@ -123,6 +122,8 @@ h3, h2 {
   padding: 30px;
   margin: 0 0 40px;
   border: 1px solid #dddddd;
+  background: #ffffff;
+  opacity: .95;
 }
 
 /* portfolio page */
@@ -161,7 +162,7 @@ h3, h2 {
   text-align: center;
   background: #4aaaa5;
   border-bottom: 0;
-  opacity: 0.85;
+  opacity: 0.95;
 }
 
 .profile-image {
@@ -211,6 +212,6 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-.container {
-
+#navbar-example2{
+  background: #4aaaa5;
 }
